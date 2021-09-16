@@ -1,1 +1,1 @@
-# rsschool-cv
+https://1Holynuk.github.io/rsschool-cv/cv
