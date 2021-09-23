@@ -7,7 +7,7 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://fonts.googleapis.com/css?family=Crimson+Text:regular,600,700&display=swap" rel="stylesheet" />
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:500,700&display=swap" rel="stylesheet" />
-	<link rel="stylesheet" href="/style.css">
+	<link rel="stylesheet" href="style.css">
 	<title>CV</title>
 </head>
 
@@ -20,26 +20,28 @@
 				</div>
 				<section class="contact">
 					<h2>CONTACT</h2>
-					<div class="contact__location">
-						<h2 class="location">Location:</h2>
-						<p class="location__descr">
-							Belarus, Brest
-						</p>
-					</div>
-					<div class="contact__email">
-						<h2>Mail:</h2>
-						<p class="email__descr">holynuk@yahoo.com</p>
-					</div>
-					<div class="contact__telegram">
-						<p class="contact__descr">
-							<a class="blue" href="https://t.me/Golenuk_Sergei" target="_blank">Telegram</a>
-						</p>
-					</div>
-					<div class="contact__github">
-						<p class="contact__descr">
-							<a class="blue" href="https://github.com/1Holynuk" target="_blank">GitHub</a>
-						</p>
-					</div>
+					<ul class="contacts__wrapper">
+						<li class="contact__location">
+							<h2 class="location">Location:</h2>
+							<p class="location__descr">
+								Belarus, Brest
+							</p>
+						</li>
+						<li class="contact__email">
+							<h2>Mail:</h2>
+							<p class="email__descr">holynuk@yahoo.com</p>
+						</li>
+						<li class="contact__telegram">
+							<p class="contact__descr">
+								<a class="blue" href="https://t.me/Golenuk_Sergei" target="_blank">Telegram</a>
+							</p>
+						</li>
+						<li class="contact__github">
+							<p class="contact__descr">
+								<a class="blue" href="https://github.com/1Holynuk" target="_blank">GitHub</a>
+							</p>
+						</li>
+					</ul>
 				</section>
 				<div class="line"></div>
 				<section class="code">
@@ -61,34 +63,32 @@ function multiply(a, b) {
 				<div class="main__wrapper">
 					<section class="skills">
 						<h2 class="skills-title">Skills</h2>
-						<div class="skills__column">
-							<h3 class="skills-html">HTML</h3>
-							<div class="skills-html__icon">
-								<img src='img/icons/02.svg' alt=''>
-							</div>
-						</div>
-						<div class="skills__column">
-							<h3>CSS</h3>
-							<div class="skills-css__icon"><img src='img/icons/02.svg' alt=''></div>
-						</div>
-						<div class="skills__column">
-							<h3>Galp</h3>
-							<div class="skills-galp__icon"><img src='img/icons/01.svg' alt=''></div>
-						</div>
-						<div class="skills__column">
-							<h3>JavaScript</h3>
-							<div class="skills-javascript__icon"><img src='img/icons/01.svg' alt=''></div>
-						</div>
-
-						<div class="skills__column">
-							<h3>GitHub</h3>
-							<div class="skills-github__icon"><img src='img/icons/01.svg' alt=''></div>
-						</div>
-						<div class="skills__column">
-							<h3>Figma</h3>
-							<div class="skills-figma__icon "><img src='img/icons/02.svg' alt=''></div>
-						</div>
-
+						<ul class="contacts__wrapper">
+							<li class="skills__column">
+								<h3>HTML</h3>
+								<div class="skills-html__icon"><img src='img/icons/02.svg' alt=''></div>
+							</li>
+							<li class="skills__column">
+								<h3>CSS</h3>
+								<div class="skills-css__icon"><img src='img/icons/02.svg' alt=''></div>
+							</li>
+							<li class="skills__column">
+								<h3>Galp</h3>
+								<div class="skills-galp__icon"><img src='img/icons/01.svg' alt=''></div>
+							</li>
+							<li class="skills__column">
+								<h3>JavaScript</h3>
+								<div class="skills-javascript__icon"><img src='img/icons/01.svg' alt=''></div>
+							</li>
+							<li class="skills__column">
+								<h3>GitHub</h3>
+								<div class="skills-github__icon"><img src='img/icons/01.svg' alt=''></div>
+							</li>
+							<li class="skills__column">
+								<h3>Figma</h3>
+								<div class="skills-figma__icon "><img src='img/icons/02.svg' alt=''></div>
+							</li>
+						</ul>
 					</section>
 					<section class="about">
 						<h2 class="about-title">About Me</h2>
